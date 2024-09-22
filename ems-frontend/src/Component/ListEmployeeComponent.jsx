@@ -67,7 +67,7 @@ function ListEmployeeComponent() {
                         <td>{emp.email}</td>
                         <td>{emp.id}</td>
                         <td>
-                            <button className='btn btn-outline-dark' onClick={() => editHandler(emp.id)}>Update</button>
+                            <button className='btn btn-outline-dark me-2' onClick={() => editHandler(emp.id)}>Update</button>
                             <button className='btn btn-danger' onClick={() => removeEmp(emp.id)}>Delete</button>
                             </td>
                     </tr>)}

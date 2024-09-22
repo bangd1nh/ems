@@ -2,7 +2,6 @@ package net.javaguides.ems.controller;
 
 import lombok.AllArgsConstructor;
 import net.javaguides.ems.dto.EmployeeDto;
-import net.javaguides.ems.entity.Employee;
 import net.javaguides.ems.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
